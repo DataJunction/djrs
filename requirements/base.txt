@@ -15,7 +15,7 @@ billiard==3.6.4.0
     # via celery
 celery[redis]==5.2.7
     # via djrs
-certifi==2022.12.7
+certifi==2023.5.7
     # via
     #   djopenapi
     #   requests
@@ -51,9 +51,9 @@ python-dotenv==0.19.2
     # via djrs
 pytz==2023.3
     # via celery
-redis==4.5.4
+redis==4.5.5
     # via celery
-requests==2.29.0
+requests==2.30.0
     # via djrs
 six==1.16.0
     # via
