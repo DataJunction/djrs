@@ -5,8 +5,6 @@
 #
 #    pip-compile-multi
 #
---trusted-host pypi.org
-
 -e file:.
     # via -r requirements/base.in
 amqp==5.1.1
@@ -17,7 +15,7 @@ billiard==3.6.4.0
     # via celery
 celery[redis]==5.2.7
     # via djrs
-certifi==2022.12.7
+certifi==2023.5.7
     # via
     #   djopenapi
     #   requests
@@ -37,7 +35,7 @@ click-repl==0.2.0
     # via celery
 djopenapi==0.0.1a1
     # via djrs
-frozendict==2.3.6
+frozendict==2.3.8
     # via djopenapi
 idna==3.4
     # via requests
@@ -51,11 +49,11 @@ python-dateutil==2.7.5
     # via djopenapi
 python-dotenv==0.19.2
     # via djrs
-pytz==2023.2
+pytz==2023.3
     # via celery
-redis==4.5.3
+redis==4.5.5
     # via celery
-requests==2.28.2
+requests==2.30.0
     # via djrs
 six==1.16.0
     # via
